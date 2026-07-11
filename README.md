@@ -1,11 +1,48 @@
-# Anonymous Dataset for Double-Blind Review
+# FoleySet: A Multi-Level Human-Annotated Foley Sound Dataset
 
-This repository contains the anonymized review version of a Foley audio dataset and its accompanying benchmark classification material for double-blind peer review.
+This repository accompanies **FoleySet**, a multi-level human-annotated Foley sound dataset.
 
-## Overview
+The repository contains the benchmark code, metadata, and evaluation materials used in the accompanying paper.
 
-This dataset supports research in Foley sound analysis and related machine learning tasks. It consists of 10,000 curated audio clips accompanied by a metadata file describing the dataset organization and annotation scheme.
-To preserve anonymity during peer review, all author-identifying information has been omitted from this repository. The associated code repository provides the dataset metadata, benchmark Python scripts, and evaluation results across both major and sub-category levels.
+---
+
+## Paper
+
+For a detailed description of the dataset construction, annotation protocol, benchmark experiments, and analysis, please refer to:
+
+**FoleySet: A Multi-Level Human-Annotated Foley Sound Dataset**
+
+**Paper:**  
+https://arxiv.org/pdf/2606.25980
+
+---
+
+## Dataset
+
+The complete audio dataset is publicly available on Zenodo:
+
+**Dataset:**  
+https://zenodo.org/records/20735877
+
+The dataset contains:
+
+- **10,000** human-annotated Foley audio clips
+- Hierarchical annotations with both **major** and **sub-category** labels
+- Curated metadata for benchmark evaluation
+- Standard train/test splits used in the paper
+
+---
+
+## Repository Overview
+
+This repository provides:
+
+- Dataset metadata
+- Benchmark classification scripts
+- Evaluation results
+- Example code for reproducing the baseline experiments
+
+---
 
 ## Repository Structure
 
@@ -18,7 +55,49 @@ To preserve anonymity during peer review, all author-identifying information has
 │   ├── benchmark_classification.py
 │   ├── passt_major_result/
 │   └── passt_sub_result/
+```
+
+---
+
+## Requirements
+
+- Python 3.10+
+- NumPy
+- Pandas
+- PyTorch
+- torchaudio
+
+Additional dependencies may be required depending on the benchmark model.
+
+---
+
+## Benchmark
+
+The provided benchmark includes baseline audio classification experiments for both:
+
+- Major-category classification
+- Sub-category classification
+
+The benchmark scripts can be adapted for training and evaluating additional audio representation models.
+
+---
+
+## Citation
+
+If you use FoleySet in your research, please consider citing:
+
+```bibtex
+@article{wang2026foleyset,
+title={FoleySet: A Multi-Level Human-Annotated Foley Sound Dataset},
+author={Wang, Sunshiyu and Lerch, Alexander},
+journal={arXiv preprint arXiv:2606.25980},
+year={2026}
+}
+```
 
 
+---
 
+## License
 
+The dataset and accompanying code are provided for academic research purposes. Please refer to the dataset license on Zenodo for usage terms.
