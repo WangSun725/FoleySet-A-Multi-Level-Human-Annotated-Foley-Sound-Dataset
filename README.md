@@ -82,6 +82,20 @@ The benchmark scripts can be adapted for training and evaluating additional audi
 
 ---
 
+
+## Supplementary Tables
+
+Complete supporting tables accompanying the FoleySet paper are available here:
+
+- [Keyword-to-category mapping](supplementary/keyword_to_category_mapping.md)
+  ([CSV](supplementary/keyword_to_category_mapping.csv))
+- [Full 73-class sub-category classification results](supplementary/subcategory_classification_results.md)
+  ([CSV](supplementary/subcategory_classification_results.csv))
+
+These files provide both human-readable and machine-readable versions of the complete taxonomy mapping and per-class benchmark results.
+
+---
+
 ## Citation
 
 If you use FoleySet in your research, please consider citing:
