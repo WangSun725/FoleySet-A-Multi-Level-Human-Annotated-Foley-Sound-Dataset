@@ -1,0 +1,87 @@
+# Full sub-category classification results
+
+Per-class results for 73-way sub-category classification on the FoleySet test set (**N = 1,000**). P = Precision, R = Recall, and Sup = Support.
+
+| Class | P | R | F1 | Sup |
+|---|---:|---:|---:|---:|
+| BoneBreak | 0.44 | 0.44 | 0.44 | 9 |
+| BottleCrush | 0.50 | 0.20 | 0.29 | 5 |
+| Breath | 0.62 | 0.45 | 0.53 | 11 |
+| Bubble | 0.83 | 1.00 | 0.91 | 5 |
+| BulletDrop | 0.20 | 0.17 | 0.18 | 6 |
+| Burp | 0.91 | 0.88 | 0.89 | 24 |
+| ButtonPress | 0.50 | 0.57 | 0.53 | 14 |
+| CanCrush | 0.25 | 0.50 | 0.33 | 6 |
+| Chain | 1.00 | 0.25 | 0.40 | 8 |
+| ClothMovement | 0.75 | 0.63 | 0.69 | 19 |
+| ClothRipping | 1.00 | 0.40 | 0.57 | 5 |
+| ClothRubbing | 0.47 | 0.35 | 0.40 | 26 |
+| CoinJingle | 0.86 | 0.52 | 0.65 | 23 |
+| Cough | 1.00 | 0.79 | 0.88 | 19 |
+| DoorOpenClose | 0.50 | 0.54 | 0.52 | 26 |
+| DoorSlam | 0.57 | 0.80 | 0.67 | 5 |
+| DoorSqueak | 0.75 | 0.55 | 0.63 | 11 |
+| DrawerOpenClose | 0.71 | 0.45 | 0.56 | 11 |
+| Drip | 0.00 | 0.00 | 0.00 | 5 |
+| EatDrink | 0.46 | 0.88 | 0.60 | 24 |
+| Fall | 0.14 | 0.50 | 0.22 | 4 |
+| Fart | 1.00 | 1.00 | 1.00 | 9 |
+| Faucet | 0.50 | 0.20 | 0.29 | 5 |
+| GlassBreak | 0.55 | 0.65 | 0.59 | 17 |
+| GlassDing | 0.78 | 1.00 | 0.88 | 7 |
+| GunMechanism | 0.43 | 1.00 | 0.60 | 3 |
+| HeartBeat | 1.00 | 1.00 | 1.00 | 2 |
+| IceBreak | 0.11 | 0.08 | 0.09 | 13 |
+| IceCube | 0.42 | 0.83 | 0.56 | 6 |
+| KeyboardTyping | 1.00 | 0.78 | 0.88 | 9 |
+| KeyJingle | 0.50 | 0.82 | 0.62 | 11 |
+| Kiss | 0.92 | 1.00 | 0.96 | 11 |
+| Knife | 1.00 | 0.43 | 0.60 | 7 |
+| Knob | 0.33 | 0.33 | 0.33 | 3 |
+| Knock | 0.93 | 1.00 | 0.96 | 13 |
+| Latch | 0.00 | 0.00 | 0.00 | 5 |
+| LiquidShaking | 0.29 | 0.50 | 0.36 | 4 |
+| Lock | 0.40 | 0.38 | 0.39 | 16 |
+| Magazine | 0.92 | 0.92 | 0.92 | 12 |
+| MetalClank | 0.50 | 0.40 | 0.44 | 5 |
+| MetalDrop | 0.00 | 0.00 | 0.00 | 4 |
+| MetalScape | 0.30 | 0.75 | 0.43 | 4 |
+| MouseButtonClick | 0.75 | 0.43 | 0.55 | 7 |
+| PaperRubbing | 0.40 | 0.33 | 0.36 | 6 |
+| PaperTear | 1.00 | 0.12 | 0.21 | 17 |
+| PencilWriting | 0.48 | 0.83 | 0.61 | 12 |
+| PenWriting | 0.57 | 0.57 | 0.57 | 7 |
+| Pipe | 0.36 | 0.67 | 0.47 | 6 |
+| PlasticRubbing | 0.56 | 0.69 | 0.62 | 13 |
+| Pour | 0.81 | 0.93 | 0.87 | 28 |
+| PunchHit | 0.28 | 0.62 | 0.38 | 13 |
+| Run | 0.59 | 0.95 | 0.73 | 20 |
+| Shower | 1.00 | 0.85 | 0.92 | 13 |
+| SingleStep | 0.52 | 0.93 | 0.67 | 45 |
+| Slurping | 0.40 | 0.50 | 0.44 | 4 |
+| Sneeze | 0.69 | 1.00 | 0.82 | 9 |
+| Sniffle | 0.50 | 0.50 | 0.50 | 4 |
+| Snore | 0.89 | 0.53 | 0.67 | 15 |
+| Splash | 0.73 | 0.67 | 0.70 | 12 |
+| Stapler | 0.67 | 0.33 | 0.44 | 6 |
+| StrawSip | 0.00 | 0.00 | 0.00 | 2 |
+| SwitchToggle | 0.89 | 0.71 | 0.79 | 24 |
+| Sword | 0.42 | 0.67 | 0.52 | 12 |
+| TapePeel | 0.67 | 0.33 | 0.44 | 6 |
+| Toilet | 1.00 | 1.00 | 1.00 | 7 |
+| Umbrella | 0.80 | 0.80 | 0.80 | 5 |
+| VelcroRip | 0.42 | 0.89 | 0.57 | 9 |
+| Walk | 0.97 | 0.63 | 0.76 | 231 |
+| WhiteboardWriting | 1.00 | 1.00 | 1.00 | 3 |
+| WindowCleaning | 1.00 | 0.50 | 0.67 | 4 |
+| WindowOpenClose | 0.00 | 0.00 | 0.00 | 6 |
+| WoodBreak | 0.00 | 0.00 | 0.00 | 6 |
+| ZipperZip | 0.83 | 0.94 | 0.88 | 16 |
+
+## Aggregate results
+
+| Measure | P | R | F1 / Accuracy | Sup |
+|---|---:|---:|---:|---:|
+| Accuracy | - | - | 0.64 | 1,000 |
+| Macro average | 0.60 | 0.59 | 0.56 | 1,000 |
+| Weighted average | 0.71 | 0.64 | 0.64 | 1,000 |
